@@ -4,15 +4,12 @@ namespace: stout
 kind: service
 name: boating-accident
 title: Boating Accident
-relations:
-  - type: runs_on
-    to: host:mini-2/orbstack
 observed_as:
   - service:mini-2/rackd-boating-accident
 attributes:
   language: go
-  url: https://boating-accident.stout.zone
   public: true
+  url: https://boating-accident.stout.zone
 ---
 
 A self-hosted, encrypted inventory for firearms, ammo, knives and accessories.
