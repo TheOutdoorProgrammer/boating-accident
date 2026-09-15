@@ -4,8 +4,6 @@ namespace: stout
 kind: service
 name: boating-accident
 title: Boating Accident
-observed_as:
-  - service:mini-2/rackd-boating-accident
 attributes:
   language: go
   public: true
@@ -30,6 +28,6 @@ AmmoSeek is deep-linked and never scraped, since their terms prohibit automated 
 ## Gotcha
 
 **The Kubernetes namespace is `rackd`, this project's former name, and so is its volume.**
-That is why the observed service is `service:mini-2/rackd-boating-accident` rather than something matching the repository.
+That is why the observed Kubernetes service is `rackd-boating-accident` rather than something matching the repository.
 The mismatch is deliberate and stays: renaming the namespace would mean moving the encrypted database and the upload blobs, and all it would buy is a tidier name.
 Do not clean it up.
