@@ -5,7 +5,7 @@ go 1.26.3
 require (
 	github.com/alexedwards/scs/v2 v2.9.0
 	github.com/disintegration/imaging v1.6.2
-	github.com/go-chi/chi/v5 v5.3.0
+	github.com/go-chi/chi/v5 v5.4.0
 	github.com/go-pdf/fpdf v0.9.0
 	github.com/pressly/goose/v3 v3.27.1
 	golang.org/x/crypto v0.53.0
